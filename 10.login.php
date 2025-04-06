@@ -11,7 +11,7 @@
        $login=TRUE;  #  // 若匹配，設定登入狀態為 TRUE
      }
    } 
-   #  如果登入成功，則開始 session 並顯示登入成功訊息
+   # 如果登入成功，則開始 session 並顯示登入成功訊息
    if ($login==TRUE) {
     session_start();  # 啟動 session
     $_SESSION["id"]=$_POST["id"];  # 將使用者的 id 存入 session 變數中，方便後續使用

@@ -11,7 +11,7 @@
         echo "<meta http-equiv=REFRESH content='3, url=2.login.html'>";
     }
     else{
-        #  # 如果使用者已經登入，顯示歡迎，並提供登出、管理使用者、以及新增佈告的連結
+        # 如果使用者已經登入，顯示歡迎，並提供登出、管理使用者、以及新增佈告的連結
         echo "歡迎, ".$_SESSION["id"]."[<a href=12.logout.php>登出</a>] [<a href=18.user.php>管理使用者</a>] [<a href=22.bulletin_add_form.php>新增佈告</a>]<br>";
         # 連接到資料庫
         $conn=mysqli_connect("db4free.net", "immust", "immustimmust", "immust");

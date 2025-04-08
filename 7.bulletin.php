@@ -20,6 +20,6 @@
         echo $row["time"];  # 顯示發佈時間
         echo "</td></tr>";
     }
-    # // 關閉表格標籤
+    # 關閉表格標籤
     echo "</table>"
 ?>

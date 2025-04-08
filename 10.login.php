@@ -8,7 +8,7 @@
    while ($row=mysqli_fetch_array($result)) {
      # 提交的帳號（POST["id"]）和密碼（POST["pwd"]）是否與資料庫中的資料相符
      if (($_POST["id"]==$row["id"]) && ($_POST["pwd"]==$row["pwd"])) {
-       $login=TRUE;  #  // 若匹配，設定登入狀態為 TRUE
+       $login=TRUE;  // 若匹配，設定登入狀態為 TRUE
      }
    } 
    # 如果登入成功，則開始 session 並顯示登入成功訊息

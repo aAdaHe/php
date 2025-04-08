@@ -5,7 +5,7 @@
     unset($_SESSION["counter"]);
     # 顯示訊息，告訴使用者計數器已成功重置
     echo "counter重置成功....";
-    # 使用 <meta> 標籤使用這裡，等 2 秒後自動重定向回 8.counter.php 頁面
+    # 使用 <meta> 標籤使用這裡，2 秒後自動重定向回 8.counter.php 頁面
     echo "<meta http-equiv=REFRESH content='2; url=8.counter.php'>";
 
 ?>
